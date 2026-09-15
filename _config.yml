@@ -1,0 +1,27 @@
+# Site settings
+title: Aidan Orr
+tagline: Cyber security and technology risk
+description: >-
+  Notes on cyber security, technology risk and assurance,
+  from Perth, Western Australia.
+url: "https://eltorago.github.io"
+baseurl: ""
+
+# Theme
+theme: minima
+
+# Pages shown in the top navigation, in order
+header_pages:
+  - about.md
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Files Jekyll should ignore
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
